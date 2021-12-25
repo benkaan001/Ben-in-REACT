@@ -2,8 +2,6 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 // components to import
-
-import ContactForm from './components/ContactForm';
 import Footer from './components/Footer';
 import NavBar from './components/NavBar';
 import Projects from './components/Projects';
@@ -12,7 +10,6 @@ import Projects from './components/Projects';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import ErrorPage from './pages/ErrorPage';
-import ProjectsPage from './pages/ProjectsPage';
 import Resume from './pages/Resume';
 import HomePage from './pages/HomePage';
 
@@ -26,28 +23,14 @@ function App() {
     <>
       <Router>
         <NavBar />
-        <main>
-          <Switch>
-            <Route exact path='/'>
-              <HomePage />
-            </Route>
-            <Route path='/about'>
-              <About />
-            </Route>
-            <Route path='/projects'>
-              <Projects />
-            </Route>
-            <Route path='/resume'>
-              <Resume />
-            </Route>
-            <Route path='/contact'>
-              <Contact />
-            </Route>
-            <Route path='*'>
-              <ErrorPage />
-            </Route>
-          </Switch>
-        </main>
+        <Switch>
+          <Route exact path='/' component={HomePage} />
+          <Route path='/about' component={About} />
+          <Route path='/projects' component={Projects} />
+          <Route path='/resume' component={Resume} />
+          <Route path='/contact' component={Contact} />
+          <Route path='*' component={ErrorPage} />
+        </Switch>
         <Footer />
       </Router>
     </>
