@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 // components to import
 import Footer from './components/Footer';
-import NavBar from './components/NavBar';
+import Header from './components/Header';
 import Projects from './components/Projects';
 
 // pages to import
@@ -22,7 +22,7 @@ function App() {
   return (
     <>
       <Router>
-        <NavBar />
+        <Header />
         <Switch>
           <Route exact path='/' component={HomePage} />
           <Route path='/about' component={About} />
