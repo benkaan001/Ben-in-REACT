@@ -15,7 +15,7 @@ const Header = () => {
         </LinkContainer>
         <Navbar.Toggle aria-controls='basic-navbar-nav' />
         <Navbar.Collapse id='basic-navbar-nav'>
-          <Nav className='mr-auto'>
+          <Nav className='mr-auto col-8'>
             <LinkContainer to='/about'>
               <Nav.Link>About Me</Nav.Link>
             </LinkContainer>
@@ -29,22 +29,24 @@ const Header = () => {
               <Nav.Link>Contact</Nav.Link>
             </LinkContainer>
           </Nav>
-          <div className=''>
-            {Icons.map((link) => {
-              const { id, url, icon } = link;
-              return (
-                <a
-                  key={id}
-                  target='_blank'
-                  className='m-3'
-                  href={url}
-                  rel='nooper noreferrer'
-                >
-                  {icon}{' '}
-                </a>
-              );
-            })}
-          </div>
+          <Nav>
+            <div>
+              {Icons.map((link) => {
+                const { id, url, icon } = link;
+                return (
+                  <a
+                    key={id}
+                    target='_blank'
+                    className='m-4 '
+                    href={url}
+                    rel='nooper noreferrer'
+                  >
+                    <span>{icon}</span>
+                  </a>
+                );
+              })}
+            </div>
+          </Nav>
         </Navbar.Collapse>
       </Navbar>
     </>
