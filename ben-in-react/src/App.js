@@ -23,6 +23,7 @@ function App() {
     <>
       <Router>
         <Header />
+
         <Switch>
           <Route exact path='/' component={HomePage} />
           <Route path='/about' component={About} />
@@ -31,6 +32,7 @@ function App() {
           <Route path='/contact' component={Contact} />
           <Route path='*' component={ErrorPage} />
         </Switch>
+
         <Footer />
       </Router>
     </>

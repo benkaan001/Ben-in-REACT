@@ -90,7 +90,7 @@ const ContactForm = () => {
           <Form.Control
             required
             name='message'
-            rows='6'
+            rows='4'
             as='textarea'
             placeholder='your message'
             onBlur={handleChange}
