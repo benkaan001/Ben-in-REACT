@@ -4,7 +4,6 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 // components to import
 import Footer from './components/Footer';
 import Header from './components/Header';
-import Projects from './components/Projects';
 
 // pages to import
 import About from './pages/About';
@@ -12,6 +11,7 @@ import Contact from './pages/Contact';
 import ErrorPage from './pages/ErrorPage';
 import Resume from './pages/Resume';
 import HomePage from './pages/HomePage';
+import ProjectsPage from './pages/ProjectsPage';
 
 //styles to import
 
@@ -28,7 +28,7 @@ function App() {
             <Switch>
               <Route exact path='/' component={HomePage} />
               <Route path='/about' component={About} />
-              <Route path='/projects' component={Projects} />
+              <Route path='/projects' component={ProjectsPage} />
               <Route path='/resume' component={Resume} />
               <Route path='/contact' component={Contact} />
               <Route path='*' component={ErrorPage} />
