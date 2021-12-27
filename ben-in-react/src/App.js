@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 // components to import
 import Footer from './components/Footer';
 import Header from './components/Header';
+import Scroll from './components/Scroll';
 
 // pages to import
 import About from './pages/About';
@@ -22,6 +23,7 @@ function App() {
   return (
     <>
       <Router>
+        <Scroll />
         <div className='app'>
           <Header />
           <div className='body'>
