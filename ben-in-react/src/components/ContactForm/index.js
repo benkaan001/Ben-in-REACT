@@ -35,25 +35,23 @@ const ContactForm = () => {
     e.preventDefault();
     emailjs
       .sendForm(
-        'gmail',
+        'service_4dr2hzf',
         'template_o0675j4',
         '#contactForm',
         'user_vzfQgmHUq9IXxbc78zDTs'
       )
       .then(
-        function (response) {
+        (response) => {
           console.log(response.text);
           setFormMessage('Message sent!');
         },
-        function (error) {
+        (error) => {
           console.log(error.text);
           setFormMessage(
             'Oh no! Something is not right. Please use the ✉️ link on the upper right corner of the page.'
           );
         }
       );
-
-    e.target.reset();
   };
 
   return (
