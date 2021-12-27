@@ -53,16 +53,16 @@
   font-family: 'Work Sans', sans-serif;
 }
 
-.App {
-  font-family: sans-serif;
+.typewriter {
+  font-family: 'Roboto Mono', monospace;
   font-weight: 800;
-  font-size: 40px;
+  font-size: 30px;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
-  background: var(--clr-primary-8);
+  min-height: 20vh;
+  background: var(--clr-primary-10);
 }
 
 .body {
