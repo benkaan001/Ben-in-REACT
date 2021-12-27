@@ -22,18 +22,20 @@ function App() {
   return (
     <>
       <Router>
-        <Header />
-
-        <Switch>
-          <Route exact path='/' component={HomePage} />
-          <Route path='/about' component={About} />
-          <Route path='/projects' component={Projects} />
-          <Route path='/resume' component={Resume} />
-          <Route path='/contact' component={Contact} />
-          <Route path='*' component={ErrorPage} />
-        </Switch>
-
-        <Footer />
+        <div className='app'>
+          <Header />
+          <div className='body'>
+            <Switch>
+              <Route exact path='/' component={HomePage} />
+              <Route path='/about' component={About} />
+              <Route path='/projects' component={Projects} />
+              <Route path='/resume' component={Resume} />
+              <Route path='/contact' component={Contact} />
+              <Route path='*' component={ErrorPage} />
+            </Switch>
+          </div>
+          <Footer />
+        </div>
       </Router>
     </>
   );

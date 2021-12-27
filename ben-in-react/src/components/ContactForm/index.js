@@ -99,7 +99,9 @@ const ContactForm = () => {
 
         {formMessage && <p className='form-message'>{formMessage}</p>}
 
-        <Button type='submit'>Submit</Button>
+        <Button type='submit' className='btn'>
+          Submit
+        </Button>
       </Form>
     </>
   );
