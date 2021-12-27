@@ -47,15 +47,29 @@
   --clr-orange-8: hsl(13, 74%, 33%);
   --clr-orange-9: hsl(13, 73%, 25%);
   --clr-orange-10: hsl(13, 73%, 16%);
+
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto Mono', monospace;
+  font-family: 'Work Sans', sans-serif;
 }
 
 .body {
   display: flex;
   flex-direction: column;
-  font-family: monospace;
+  font-family: 'Roboto Mono', monospace;
   min-height: 80vh;
+  background-color: var(--clr-grey-10);
+}
+
+.jumbotron {
+  background-color: var(--clr-primary-10);
 }
 
 .jumbotron .col {
   margin: auto;
+}
+
+h3,
+h4 {
+  padding-bottom: 16px;
 }

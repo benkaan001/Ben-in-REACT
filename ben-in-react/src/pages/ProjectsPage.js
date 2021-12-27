@@ -61,7 +61,7 @@ const ProjectItems = [
 const ProjectsPage = () => {
   return (
     <>
-      <Container fluid className='p-5 mb-0 shadow'>
+      <Container fluid className='p-5 mb-0 shadow jumbotron'>
         <Container className='text-center p-md-5'>
           <h1>Projects</h1>
         </Container>

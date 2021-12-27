@@ -11,7 +11,7 @@ import Button from 'react-bootstrap/Button';
 const Resume = () => {
   return (
     <>
-      <Container fluid className='p-5 mb-0 shadow'>
+      <Container fluid className='p-5 mb-0 shadow jumbotron'>
         <Container className='text-center'>
           <div className='p-md-5'>
             <h1>

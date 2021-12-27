@@ -9,7 +9,7 @@ import Row from 'react-bootstrap/Row';
 const Contact = () => {
   return (
     <>
-      <Container fluid className='p-5 mb-2'>
+      <Container fluid className='p-5 mb-2 jumbotron'>
         <Container className='p-md-4 text-center'>
           <h1>Get in Touch</h1>
         </Container>
