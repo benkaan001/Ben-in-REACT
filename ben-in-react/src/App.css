@@ -68,8 +68,16 @@
 .jumbotron .col {
   margin: auto;
 }
-
+#nav-brand {
+  margin-left: 20px;
+}
 h3,
 h4 {
   padding-bottom: 16px;
+}
+
+@media only screen and (max-width: 600px) {
+  #nav-brand {
+    margin-left: 0px;
+  }
 }

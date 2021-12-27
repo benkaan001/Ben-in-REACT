@@ -1,5 +1,5 @@
 import React from 'react';
-import Icons from '../../pages/Icons';
+import Icons from '../Icons';
 
 import { LinkContainer } from 'react-router-bootstrap';
 
@@ -9,12 +9,13 @@ import Nav from 'react-bootstrap/Nav';
 const Header = () => {
   return (
     <>
-      <Navbar collapseOnSelect expand='lg' className='bg-light shadow'>
+      <Navbar collapseOnSelect expand='lg' bg='light' variant='light'>
         <LinkContainer to='/'>
-          <Navbar.Brand>Ben Kaan</Navbar.Brand>
+          <Navbar.Brand id='nav-brand'>Ben Kaan</Navbar.Brand>
         </LinkContainer>
+
         <Navbar.Toggle aria-controls='basic-navbar-nav' />
-        <Navbar.Collapse id='basic-navbar-nav'>
+        <Navbar.Collapse>
           <Nav className='mr-auto col-8'>
             <LinkContainer to='/about'>
               <Nav.Link>About Me</Nav.Link>
@@ -29,23 +30,8 @@ const Header = () => {
               <Nav.Link>Contact</Nav.Link>
             </LinkContainer>
           </Nav>
-          <Nav>
-            <div>
-              {Icons.map((link) => {
-                const { id, url, icon } = link;
-                return (
-                  <a
-                    key={id}
-                    target='_blank'
-                    className='m-4 '
-                    href={url}
-                    rel='nooper noreferrer'
-                  >
-                    <span>{icon}</span>
-                  </a>
-                );
-              })}
-            </div>
+          <Nav className=''>
+            <Icons />
           </Nav>
         </Navbar.Collapse>
       </Navbar>
