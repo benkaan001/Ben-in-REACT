@@ -17,7 +17,7 @@ const ErrorPage = () => {
             <Card.Img src={errorPic} />
             <Card.Text className='mt-5'>
               <LinkContainer to='/about'>
-                <a> Back to main page</a>
+                <a href='/#'> Back to main page</a>
               </LinkContainer>
             </Card.Text>
           </Card.Body>
