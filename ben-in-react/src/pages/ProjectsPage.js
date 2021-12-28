@@ -71,7 +71,7 @@ const ProjectsPage = () => {
         <Row>
           {ProjectItems.map((projectItem) => {
             return (
-              <Col s={12} lg={6} key={projectItem.key}>
+              <Col s={12} lg={6} key={projectItem.id}>
                 <Projects project={projectItem} />
               </Col>
             );

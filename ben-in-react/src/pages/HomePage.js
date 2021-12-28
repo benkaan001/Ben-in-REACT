@@ -17,25 +17,23 @@ const HomePage = (props) => {
   };
   return (
     <>
-      <Container>
-        <Container fluid className='p-0 mb-0 jumbotron'>
-          <Container className='p-md-3 text-center typewriter'>
-            <Typewriter
-              onInit={(typewriter) => {
-                typewriter
+      <Container fluid className='p-0 mb-0 jumbotron'>
+        <Container className='p-md-3 text-center typewriter'>
+          <Typewriter
+            onInit={(typewriter) => {
+              typewriter
 
-                  .typeString('> Hello, world!')
-                  .pauseFor(1000)
-                  .deleteAll()
-                  .typeString('> meetBen();')
-                  .pauseFor(2000)
-                  .deleteAll()
-                  .typeString('> Redirecting you to ...')
-                  .callFunction(() => typeHandler())
-                  .start();
-              }}
-            />
-          </Container>
+                .typeString('> Hello, world!')
+                .pauseFor(1000)
+                .deleteAll()
+                .typeString('> meetBen();')
+                .pauseFor(2000)
+                .deleteAll()
+                .typeString('> Redirecting you to ...')
+                .callFunction(() => typeHandler())
+                .start();
+            }}
+          />
         </Container>
 
         <Container>

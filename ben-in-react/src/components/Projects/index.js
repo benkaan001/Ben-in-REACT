@@ -13,7 +13,7 @@ const Projects = ({ project }) => {
               <h4>{project.title}</h4>
             </a>
             <a href={project.repo} target='_blank' rel='noopener noreferrer'>
-              <BsGithub />
+              <BsGithub className='links' />
             </a>
           </Card.Title>
           <Card.Subtitle>{project.description}</Card.Subtitle>

@@ -26,13 +26,14 @@ const Resume = () => {
           href='https://github.com/benkaan001/Ben-in-REACT'
           target='_blank'
           rel='noopener noreferrer'
+          className='btn'
         >
           View My Resume
         </Button>
       </Container>
 
       <Container>
-        <Row>
+        <Row className='mb-3'>
           <Col>
             <Card>
               <Card.Body>
@@ -50,7 +51,7 @@ const Resume = () => {
             </Card>
           </Col>
         </Row>
-        <Row>
+        <Row className='mb-3'>
           <Col>
             <Card>
               <Card.Body>
@@ -68,14 +69,17 @@ const Resume = () => {
             </Card>
           </Col>
         </Row>
+        <Row className='mb-3'>
+          <Col>
+            <Card>
+              <Card.Body>
+                <h3 className='text-center'>Days I coded</h3>
+                <Image src={require('../assets/github.png')} fluid />
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
       </Container>
-      <Row>
-        {/* <h1>Days I coded in 2021</h1> */}
-        <p className='text-dark text-center text-md-left h3'>Days I coded</p>
-      </Row>
-      <Row>
-        <Image src={require('../assets/github.png')} fluid />
-      </Row>
     </>
   );
 };

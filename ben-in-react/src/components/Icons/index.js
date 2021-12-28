@@ -40,7 +40,7 @@ const Icons = () => {
             <a
               key={id}
               target='_blank'
-              className='m-4 '
+              className='m-4 links'
               href={url}
               rel='nooper noreferrer'
             >

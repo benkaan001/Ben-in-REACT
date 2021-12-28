@@ -15,7 +15,7 @@ const Contact = () => {
         </Container>
       </Container>
 
-      <Container fluid className='shadow bg-light mb-5'>
+      <Container fluid className='shadow bg-light mb-4'>
         <Container className='p-4'>
           <Row>
             <Col>

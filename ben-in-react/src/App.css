@@ -53,6 +53,13 @@
   font-family: 'Work Sans', sans-serif;
 }
 
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .typewriter {
   font-family: 'Roboto Mono', monospace;
   font-weight: 800;
@@ -67,29 +74,59 @@
 
 .body {
   display: flex;
+  flex: 1 0 auto;
   flex-direction: column;
   font-family: 'Roboto Mono', monospace;
   min-height: 80vh;
-  background-color: var(--clr-grey-10);
+  background-color: var(--clr-primary-9);
+}
+.app {
+  background-color: var(--clr-primary-10);
+}
+.navbar {
+  background-color: var(--clr-primary-8);
+}
+.about {
+  background-color: var(--clr-primary-9);
 }
 
 .jumbotron {
-  background-color: var(--clr-primary-10);
+  background-color: var(--clr-orange-2);
 }
 
 .jumbotron .col {
   margin: auto;
 }
-#nav-brand {
-  margin-left: 20px;
-}
+
 h3,
 h4 {
   padding-bottom: 16px;
+  letter-spacing: var(--spacing);
+  color: var(--clr-orange-8);
 }
 
-@media only screen and (max-width: 600px) {
-  #nav-brand {
-    margin-left: 0px;
-  }
+.btn {
+  text-transform: uppercase;
+  background: var(--clr-orange-4) !important;
+  color: var(--clr-orange-9) !important;
+  padding: 0.375rem 0.75rem;
+  letter-spacing: var(--spacing);
+
+  width: 12rem;
+
+  margin-top: 3rem;
+}
+.btn:hover,
+.btn:active {
+  color: var(--clr-orange-8) !important;
+  background: var(--clr-orange-3) !important;
+}
+
+.links {
+  color: var(--clr-grey-3);
+  transition: var(--transition);
+}
+.links:hover {
+  color: var(--clr-grey-5);
+  padding: 2px 1px;
 }

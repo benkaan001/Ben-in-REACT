@@ -15,8 +15,9 @@ const About = () => {
               <Image
                 src={require('../assets/IMG_6484.jpg')}
                 thumbnail
-                width='3300vw'
-                height='3300vw'
+
+                // width='200vw'
+                // height='200vw'
               />
             </Col>
             <Col className='pl-md-5'>
@@ -31,8 +32,8 @@ const About = () => {
         </Container>
       </Container>
 
-      <Container fluid className='shadow mb-5 bg-light'>
-        <Container className='p-5'>
+      <Container fluid className=''>
+        <Container className='p-5 about'>
           <h3>About Me</h3>
           <p>Professional background</p>
           <p>Web development journey</p>

@@ -9,7 +9,7 @@ import Nav from 'react-bootstrap/Nav';
 const Header = () => {
   return (
     <>
-      <Navbar collapseOnSelect expand='lg' bg='light' variant='light'>
+      <Navbar collapseOnSelect expand='lg'>
         <LinkContainer to='/'>
           <Navbar.Brand id='nav-brand'>Ben Kaan</Navbar.Brand>
         </LinkContainer>
