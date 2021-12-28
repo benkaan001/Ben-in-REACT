@@ -104,11 +104,15 @@
 .jumbotron .col {
   margin: auto;
 }
+h1,
+h2 {
+  letter-spacing: var(--spacing) !important;
+}
 
 h3,
 h4 {
   padding-bottom: 16px;
-  letter-spacing: var(--spacing);
+  letter-spacing: var(--spacing) !important;
   color: var(--clr-orange-8);
 }
 

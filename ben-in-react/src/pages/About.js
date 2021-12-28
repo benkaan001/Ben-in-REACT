@@ -33,8 +33,7 @@ const About = () => {
                   strings: [
                     '<h3>based in Austin, TX</h3>',
                     '<h3>world-traveler, learner, </h3>',
-                    '<h3> adventurist,</h3>',
-                    '<h3> and hardworker.</h3>',
+                    '<h3> and a curious adventurer.</h3>',
                   ],
                   deleteSpeed: 10,
                   autoStart: true,
