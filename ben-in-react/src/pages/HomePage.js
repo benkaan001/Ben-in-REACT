@@ -13,36 +13,33 @@ const HomePage = (props) => {
     });
     window.setTimeout(() => {
       props.history.push('/about');
-    }, 1000);
+    });
   };
   return (
     <>
-      <Container fluid className='p-0 mb-0 jumbotron'>
-        <Container className='p-md-3 text-center typewriter'>
+      <Container fluid className='jumbotron'>
+        <Container fluid className='text-center typewriter'>
           <Typewriter
             onInit={(typewriter) => {
               typewriter
 
-                .typeString('> Hello, world!')
-                .pauseFor(1000)
-                .deleteAll()
-                .typeString('> meetBen();')
-                .pauseFor(2000)
-                .deleteAll()
-                .typeString('> Redirecting you to ...')
-                .callFunction(() => typeHandler())
+                .typeString('> Hello there!')
+                .pauseFor(300)
+                .deleteChars(14)
+                .typeString(
+                  '> I just want to say quick thanks for stopping by '
+                )
+                .deleteAll(1)
+
+                .typeString('> before I take you to the main page in 5,4,3,2,1')
+                // .callFunction(() => typeHandler())
                 .start();
             }}
           />
         </Container>
 
-        <Container>
-          <Image
-            src={require('../assets/project.JPG')}
-            thumbnail
-            width='3300vw'
-            height='3300vw'
-          />
+        <Container className='text-center m'>
+          <Image src={require('../assets/project.JPG')} rounded width='50%' />
         </Container>
       </Container>
     </>

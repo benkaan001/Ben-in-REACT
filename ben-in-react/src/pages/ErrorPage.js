@@ -10,17 +10,22 @@ const ErrorPage = () => {
     <>
       <Container className='p-5 h-100'>
         <Card>
-          <Card.Body className='text-center m-5'>
-            <Card.Title>
-              <h2>Oops, that page does not exist...</h2>
-            </Card.Title>
-            <Card.Img src={errorPic} />
-            <Card.Text className='mt-5'>
-              <LinkContainer to='/about'>
-                <a href='/#'> Back to main page</a>
-              </LinkContainer>
-            </Card.Text>
-          </Card.Body>
+          <div className='error-body'>
+            <Card.Body className='text-center m-5'>
+              <Card.Title>
+                <h3>Oops, that page does not exist...</h3>
+              </Card.Title>
+              <Card.Img src={errorPic} />
+              <Card.Text className='mt-5'>
+                <LinkContainer to='/about'>
+                  <a href='/#' className='error'>
+                    {' '}
+                    Back to main page
+                  </a>
+                </LinkContainer>
+              </Card.Text>
+            </Card.Body>
+          </div>
         </Card>
       </Container>
     </>

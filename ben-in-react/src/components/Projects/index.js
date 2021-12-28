@@ -5,24 +5,27 @@ import { BsGithub } from 'react-icons/bs';
 
 const Projects = ({ project }) => {
   return (
-    <>
-      <Card className='m-lg-4 m-2 d-flex justify-content-center'>
-        <Card.Body>
-          <Card.Title className='d-flex justify-content-between align-items-center'>
-            <a href={project.page} target='_blank' rel='noopener noreferrer'>
-              <h4>{project.title}</h4>
-            </a>
-            <a href={project.repo} target='_blank' rel='noopener noreferrer'>
-              <BsGithub className='links' />
-            </a>
-          </Card.Title>
-          <Card.Subtitle>{project.description}</Card.Subtitle>
-          <a href={project.page} target='_blank' rel='noopener noreferrer'>
-            <Card.Img src={project.img} className='pt-4' />
+    <Card className='m-lg-4  d-flex justify-content-center'>
+      <Card.Body className='justify-content-between'>
+        <Card.Title className='d-flex justify-content-between '>
+          <a
+            href={project.page}
+            target='_blank'
+            rel='noopener noreferrer'
+            className='project-title'
+          >
+            <h4 className='project-title'>{project.title}</h4>
           </a>
-        </Card.Body>
-      </Card>
-    </>
+          <a href={project.repo} target='_blank' rel='noopener noreferrer'>
+            <BsGithub className='links' />
+          </a>
+        </Card.Title>
+        <Card.Subtitle>{project.description}</Card.Subtitle>
+        <a href={project.page} target='_blank' rel='noopener noreferrer'>
+          <Card.Img src={project.img} className='pt-4' />
+        </a>
+      </Card.Body>
+    </Card>
   );
 };
 

@@ -14,10 +14,8 @@ const About = () => {
             <Col sm={12} md={6} lg={4} className='justify-content-center'>
               <Image
                 src={require('../assets/IMG_6484.jpg')}
-                thumbnail
-
-                // width='200vw'
-                // height='200vw'
+                rounded
+                width='100%'
               />
             </Col>
             <Col className='pl-md-5'>

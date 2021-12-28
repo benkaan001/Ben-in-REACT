@@ -7,11 +7,11 @@ import Col from 'react-bootstrap/Col';
 
 const Footer = () => {
   return (
-    <Container fluid bg='light' variant='light' className='p-3'>
-      <Container>
+    <Container>
+      <Container fluid bg='light' variant='light' className='p-5 light'>
         <Row>
           <Col sm={12} md={6} className='d-flex justify-content-center'>
-            <p>© 2021 Made with love and care by Ben Kaan</p>
+            <p className='footer'>© 2021 Made with love and care by Ben Kaan</p>
           </Col>
 
           <Col

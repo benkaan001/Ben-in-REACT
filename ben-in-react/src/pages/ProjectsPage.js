@@ -6,55 +6,65 @@ import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 
 import projectImage from '../assets/project.JPG';
+import jsQuizImage from '../assets/jsQuiz.png';
+import tinyReactProjectsImage from '../assets/calorie-content.gif';
+import financialAdvisorApiImage from '../assets/financial-advisor-API.gif';
+import liteBudgetImage from '../assets/lite-budget.gif';
+import photoFetchImage from '../assets/Photo-Fetch.gif';
+import letsBlogThatImage from '../assets/letsBlogThat.png';
 
 const ProjectItems = [
   {
     id: 0,
-    title: 'Run Buddy',
-    description: 'Landing Page',
-    img: projectImage,
-    repo: 'https://github.com/benkaan001/run-buddy-too',
-    page: 'https://github.com/benkaan001/run-buddy-too',
+    title: 'Lets Blog That',
+    description:
+      'Full-stack web application featuring Model-View-Controller (MVC) architectural layout',
+    img: letsBlogThatImage,
+    repo: 'https://github.com/benkaan001/lets-blog-that',
+    page: 'https://lit-cove-65977.herokuapp.com/',
   },
   {
     id: 1,
-    title: 'Run Buddy',
-    description: 'Landing Page',
-    img: projectImage,
-    repo: 'https://github.com/benkaan001/run-buddy-too',
-    page: 'https://github.com/benkaan001/run-buddy-too',
+    title: 'Calorie Content Menu in React',
+    description: 'A collection of small React projects',
+    img: tinyReactProjectsImage,
+    repo: 'https://github.com/benkaan001/react-tiny-projects',
+    page: 'https://github.com/benkaan001/react-tiny-projects/blob/main/1-birthday-reminder/assets/calorie-content.gif',
   },
   {
     id: 2,
-    title: 'Run Buddy',
-    description: 'Landing Page',
-    img: projectImage,
-    repo: 'https://github.com/benkaan001/run-buddy-too',
-    page: 'https://github.com/benkaan001/run-buddy-too',
+    title: 'Financial Advisor API',
+    description:
+      'An API that utilizes JWT, bcryptjs, custom error handling, and several data security npm libraries to help manage prospective clients for a financial advisor.',
+    img: financialAdvisorApiImage,
+    repo: 'https://github.com/benkaan001/JWT-FinancialAdvisorAPI',
+    page: 'https://financial-advisor-api.herokuapp.com/api-docs/#/',
   },
   {
     id: 3,
-    title: 'Run Buddy',
-    description: 'Landing Page',
-    img: projectImage,
-    repo: 'https://github.com/benkaan001/run-buddy-too',
-    page: 'https://github.com/benkaan001/run-buddy-too',
+    title: 'Lite Budget PWA',
+    description:
+      "Progressive Web Application(PWA) providing users with offline functionality to help keep track of users' financial information using MongoDB as its database.",
+    img: liteBudgetImage,
+    repo: 'https://github.com/benkaan001/lite-budget-PWA',
+    page: 'https://dry-citadel-07916.herokuapp.com/',
   },
   {
     id: 4,
-    title: 'Run Buddy',
-    description: 'Landing Page',
-    img: projectImage,
-    repo: 'https://github.com/benkaan001/run-buddy-too',
-    page: 'https://github.com/benkaan001/run-buddy-too',
+    title: 'Photo Fetch',
+    description:
+      'Responsive front-end application featuring front-end fetch API calls with async/await syntax.',
+    img: photoFetchImage,
+    repo: 'https://github.com/benkaan001/photo-fetch',
+    page: 'https://benkaan001.github.io/photo-fetch/',
   },
   {
     id: 5,
-    title: 'Run Buddy',
-    description: 'Landing Page',
-    img: projectImage,
-    repo: 'https://github.com/benkaan001/run-buddy-too',
-    page: 'https://github.com/benkaan001/run-buddy-too',
+    title: 'Quiz within JavaScript',
+    description: 'Simple JavaScript Quiz game',
+    img: jsQuizImage,
+    repo: 'https://github.com/benkaan001/react-tiny-projects',
+    page: 'https://github.com/benkaan001/react-tiny-projects/tree/main/5-calorie-content/MENU',
   },
 ];
 

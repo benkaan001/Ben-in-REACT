@@ -53,24 +53,27 @@
   font-family: 'Work Sans', sans-serif;
 }
 
-::after,
-::before {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* home page section */
+
 .typewriter {
   font-family: 'Roboto Mono', monospace;
-  font-weight: 800;
-  font-size: 30px;
+  font-weight: 300;
+  font-size: 20px;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 20vh;
-  background: var(--clr-primary-10);
+  background: var(--clr-orange-2);
 }
+
+/* body  */
 
 .body {
   display: flex;
@@ -78,16 +81,21 @@
   flex-direction: column;
   font-family: 'Roboto Mono', monospace;
   min-height: 80vh;
-  background-color: var(--clr-primary-9);
+  background-color: var(--clr-primary-10);
 }
+
+/* header */
+
 .app {
   background-color: var(--clr-primary-10);
 }
+
 .navbar {
-  background-color: var(--clr-primary-8);
+  background-color: var(--clr-orange-1);
+  font-family: 'Work Sans', sans-serif;
 }
 .about {
-  background-color: var(--clr-primary-9);
+  background-color: var(--clr-primary-10);
 }
 
 .jumbotron {
@@ -105,22 +113,23 @@ h4 {
   color: var(--clr-orange-8);
 }
 
+/* button elements */
+
 .btn {
   text-transform: uppercase;
   background: var(--clr-orange-4) !important;
   color: var(--clr-orange-9) !important;
-  padding: 0.375rem 0.75rem;
   letter-spacing: var(--spacing);
-
-  width: 12rem;
-
-  margin-top: 3rem;
+  width: 190px;
+  margin-top: 45px;
 }
 .btn:hover,
 .btn:active {
   color: var(--clr-orange-8) !important;
   background: var(--clr-orange-3) !important;
 }
+
+/* link elements  */
 
 .links {
   color: var(--clr-grey-3);
@@ -129,4 +138,35 @@ h4 {
 .links:hover {
   color: var(--clr-grey-5);
   padding: 2px 1px;
+}
+
+/* project cards */
+
+.card:hover {
+  transform: scale(1.01);
+  box-shadow: 10px 4px 10px 4 px var(--clr-orange-8);
+}
+
+.project-title {
+  text-decoration: none !important;
+}
+
+.project-title:hover {
+  color: var(--clr-grey-1);
+  background-color: var(--clr-orange-1);
+  margin-top: 0.1px;
+}
+
+/*footer*/
+.footer {
+  font-family: 'Work Sans', sans-serif;
+}
+
+/* error-page styling */
+.error {
+  font-size: 20px;
+  color: var(--clr-grey-1);
+}
+.error-body {
+  background-color: var(--clr-orange-2);
 }

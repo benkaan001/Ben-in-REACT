@@ -23,7 +23,7 @@ const Resume = () => {
 
       <Container className='py-5 d-flex flex-column flex-md-row justify-content-center align-items-center'>
         <Button
-          href='https://github.com/benkaan001/Ben-in-REACT'
+          href='https://benkaan001.github.io/portfolioChallenge/assets/Ben%20Kaan%20Resume.html'
           target='_blank'
           rel='noopener noreferrer'
           className='btn'
@@ -45,7 +45,7 @@ const Resume = () => {
                   <li>React</li>
                   <li>Bootstrap</li>
                   <li>jQuery</li>
-                  <li>MORE....</li>
+                  {/* <li>MORE....</li> */}
                 </ul>
               </Card.Body>
             </Card>
