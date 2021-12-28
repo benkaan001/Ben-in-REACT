@@ -23,16 +23,16 @@ const HomePage = (props) => {
             onInit={(typewriter) => {
               typewriter
 
-                .typeString('> Hello there!')
-                .pauseFor(300)
-                .deleteChars(14)
-                .typeString(
-                  '> I just want to say quick thanks for stopping by '
-                )
-                .deleteAll(1)
+                .typeString('>  const meetBen = () => ...in 5,4,3,2,1 ')
+                // .pauseFor(300)
+                // .deleteChars(14)
+                // .typeString(
+                //   '> I just want to say quick thanks for stopping by '
+                // )
+                // .deleteAll(1)
 
-                .typeString('> before I take you to the main page in 5,4,3,2,1')
-                // .callFunction(() => typeHandler())
+                // .typeString('> before I take you to the main page in 5,4,3,2,1')
+                .callFunction(() => typeHandler())
                 .start();
             }}
           />

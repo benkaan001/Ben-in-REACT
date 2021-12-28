@@ -1,4 +1,6 @@
 import React from 'react';
+import Typewriter from 'typewriter-effect';
+import GetToKnowMe from '../components/GetToKnowMe';
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -15,16 +17,31 @@ const About = () => {
               <Image
                 src={require('../assets/IMG_6484.jpg')}
                 rounded
-                width='100%'
+                width='70%'
               />
             </Col>
-            <Col className='pl-md-5'>
+            <Col className='pl-md-5 text-center'>
               <h1 className='display-4 text-center text-lg-left  p-0-lg pt-4'>
-                hello!
+                Hello!
               </h1>
-              <p className='text-dark text-center text-md-left h3'>
-                I'm Ben Kaan, a full-stack developer currently in Austin, TX.
-              </p>
+              <h3 className='text-dark text-center text-md-left'>
+                I'm BEN, a full-stack developer,
+              </h3>
+
+              <Typewriter
+                options={{
+                  strings: [
+                    '<h3>based in Austin, TX</h3>',
+                    '<h3>world-traveler, learner, </h3>',
+                    '<h3> adventurist,</h3>',
+                    '<h3> and hardworker.</h3>',
+                  ],
+                  deleteSpeed: 10,
+                  autoStart: true,
+                  loop: true,
+                  cursor: '>',
+                }}
+              />
             </Col>
           </Row>
         </Container>
@@ -32,10 +49,7 @@ const About = () => {
 
       <Container fluid className=''>
         <Container className='p-5 about'>
-          <h3>About Me</h3>
-          <p>Professional background</p>
-          <p>Web development journey</p>
-          <p>Something Personal for more click here</p>
+          <GetToKnowMe />
         </Container>
       </Container>
     </>

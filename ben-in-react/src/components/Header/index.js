@@ -30,7 +30,7 @@ const Header = () => {
               <Nav.Link>Contact</Nav.Link>
             </LinkContainer>
           </Nav>
-          <Nav className=''>
+          <Nav>
             <Icons />
           </Nav>
         </Navbar.Collapse>

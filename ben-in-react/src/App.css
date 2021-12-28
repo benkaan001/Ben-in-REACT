@@ -56,15 +56,14 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 /* home page section */
 
 .typewriter {
-  font-family: 'Roboto Mono', monospace;
   font-weight: 300;
-  font-size: 20px;
+  font-size: 30px;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -92,7 +91,7 @@
 
 .navbar {
   background-color: var(--clr-orange-1);
-  font-family: 'Work Sans', sans-serif;
+  /* font-family: 'Work Sans', sans-serif; */
 }
 .about {
   background-color: var(--clr-primary-10);
@@ -137,7 +136,7 @@ h4 {
 }
 .links:hover {
   color: var(--clr-grey-5);
-  padding: 2px 1px;
+  padding: 1px 1px;
 }
 
 /* project cards */
@@ -158,9 +157,9 @@ h4 {
 }
 
 /*footer*/
-.footer {
+/* .footer {
   font-family: 'Work Sans', sans-serif;
-}
+} */
 
 /* error-page styling */
 .error {
