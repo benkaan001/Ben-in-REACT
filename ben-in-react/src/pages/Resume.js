@@ -8,8 +8,6 @@ import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import GitHubCalendar from 'react-github-calendar';
 
-import GetToKnowMe from '../components/GetToKnowMe';
-
 const Resume = () => {
   return (
     <>
@@ -76,7 +74,6 @@ const Resume = () => {
             <Card>
               <Card.Body>
                 <h3 className='text-center'>Days I coded</h3>
-                {/* <Image src={require('../assets/github.png')} fluid /> */}
                 <div className='justify-content-center'>
                   <GitHubCalendar username='benkaan001' />
                 </div>

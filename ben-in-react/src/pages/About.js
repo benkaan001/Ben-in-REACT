@@ -14,11 +14,7 @@ const About = () => {
         <Container>
           <Row>
             <Col sm={12} md={6} lg={4} className='justify-content-center'>
-              <Image
-                src={require('../assets/IMG_6484.jpg')}
-                rounded
-                width='70%'
-              />
+              <Image src={require('../assets/IMG_6484.jpg')} thumbnail />
             </Col>
             <Col className='pl-md-5 text-center'>
               <h1 className='display-4 text-center text-lg-left  p-0-lg pt-4'>

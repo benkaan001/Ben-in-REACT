@@ -10,7 +10,7 @@ const getToKnowMe = [
     title: 'Hello and Welcome!',
     dates: 'Jul 2021 - Present',
     responsibilities: [
-      'Thank you for stopping by! This is my first React Application. It is certainly not perfect - as you may tell from the weird location of the blinking cursor somewhere up there.😅',
+      'Thank you for stopping by! This is my first React Application. It is certainly not perfect - as you may tell from the weird location of the blinking cursor above.😅',
       'As a former perfectionist, who always strived for and somehow managed to achieve that 4.0 GPA or the Top Performer/Employee of the Year Award(s), this is one of the most difficult yet greatest things that coding has taught me. ',
       'I am most certainly not there yet; however, like my coding skills, I am getting better at it - EVERY DAY, which has been the key ingredient in all of my success stories that I will eloborate on in Part II.',
     ],
@@ -22,7 +22,7 @@ const getToKnowMe = [
     title: 'The Power of Consistency',
     dates: 'Nov 2020 - Present',
     responsibilities: [
-      '',
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores laborum minus harum accusantium sed fugiat eligendi sequi necessitatibus corrupti. Minus iste nobis soluta, nulla at hic cupiditate earum magnam sapiente?',
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores laborum minus harum accusantium sed fugiat eligendi sequi necessitatibus corrupti. Minus iste nobis soluta, nulla at hic cupiditate earum magnam sapiente?',
     ],
     company: 'PART II',
