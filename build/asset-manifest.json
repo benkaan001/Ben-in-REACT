@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/ben-in-react/static/css/main.3cc57b9d.css",
+    "main.js": "/ben-in-react/static/js/main.39491aef.js",
+    "static/js/787.81ee5bab.chunk.js": "/ben-in-react/static/js/787.81ee5bab.chunk.js",
+    "static/media/photoFetch4.gif": "/ben-in-react/static/media/photoFetch4.986722edd2f04192030f.gif",
+    "static/media/financial-advisor-API.gif": "/ben-in-react/static/media/financial-advisor-API.8fd30231dab4fcf43352.gif",
+    "static/media/lite-budget.gif": "/ben-in-react/static/media/lite-budget.4d8c4c88d418feb31e2b.gif",
+    "static/media/calorie-content.gif": "/ben-in-react/static/media/calorie-content.7e30dc3028f60075ae0a.gif",
+    "static/media/error.jpg": "/ben-in-react/static/media/error.6fa8b0d721dbd7ccf9fd.jpg",
+    "static/media/project.JPG": "/ben-in-react/static/media/project.107efb777cc71327f9dd.JPG",
+    "static/media/IMG_6484.jpg": "/ben-in-react/static/media/IMG_6484.e03e3165e6be13e21594.jpg",
+    "static/media/letsBlogThat.png": "/ben-in-react/static/media/letsBlogThat.c12288da3b6c423ea54c.png",
+    "static/media/jsQuiz.png": "/ben-in-react/static/media/jsQuiz.b01596b34b46fd846bd6.png",
+    "index.html": "/ben-in-react/index.html",
+    "main.3cc57b9d.css.map": "/ben-in-react/static/css/main.3cc57b9d.css.map",
+    "main.39491aef.js.map": "/ben-in-react/static/js/main.39491aef.js.map",
+    "787.81ee5bab.chunk.js.map": "/ben-in-react/static/js/787.81ee5bab.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3cc57b9d.css",
+    "static/js/main.39491aef.js"
+  ]
+}
