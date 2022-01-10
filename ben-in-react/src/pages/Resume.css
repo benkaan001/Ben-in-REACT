@@ -43,3 +43,7 @@
   -webkit-transform: rotateY(0);
   transform: rotateY(0);
 }
+
+.github-calendar {
+  background-color: var(--clr-primary-9) !important;
+}

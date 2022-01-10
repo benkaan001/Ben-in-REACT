@@ -142,38 +142,12 @@ const Resume = () => {
         </Row>
       </Container>
 
-      <Container className='justify-content-center mt-4'>
-        {/* <Row className='mb-3'>
+      <Container className='justify-content-center mt-4 mb-4'>
+        <Row>
           <Col>
-            <Card.Body>
-              <h3 className='text-center'>Frontend Skills</h3>
-            </Card.Body>
-          </Col>
-        </Row> */}
-
-        {/* <Row className='mb-3'>
-          <Col>
-            <Card>
-              <Card.Body>
-                <h3 className='text-center'>Backend Skills</h3>
-                <ul>
-                  <li>NodeJS</li>
-                  <li>Express</li>
-                  <li>RESTful APIs</li>
-                  <li>MongoDB, Mongoose</li>
-                  <li>SQL</li>
-                  <li>MySQL, Sequelize</li>
-                  <li>GraphQL</li>
-                </ul>
-              </Card.Body>
-            </Card>
-          </Col>
-        </Row> */}
-        <Row className=''>
-          <Col>
-            <Card>
-              <Card.Body className='mt-4 justify-content-center'>
-                <h4 className='text-center p-4 mt-4'>Days I coded</h4>
+            <Card className='github-calendar'>
+              <Card.Body className='mt-4 justify-content-center github-calendar'>
+                <h4 className='text-center '>Days I coded</h4>
                 <div className='p-4'>
                   <GitHubCalendar username='benkaan001' />
                 </div>
