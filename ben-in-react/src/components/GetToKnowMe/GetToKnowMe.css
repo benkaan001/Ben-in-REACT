@@ -1,23 +1,15 @@
-/* section */
-.about-section {
+/* 
+===================
+GetToKnowMe Section 
+===================
+*/
+
+.getToKnowMe-section {
   width: 90vw;
   margin: 5rem auto;
   max-width: 1170px;
 }
 
-.loading {
-  text-align: center;
-}
-
-/* .underline {
-  width: 5rem;
-  height: 0.25rem;
-  margin-bottom: 1.25rem;
-  background: var(--clr-primary-5);
-
-  margin-left: auto;
-  margin-right: auto;
-} */
 .title {
   margin-bottom: 4rem;
   text-align: center;
@@ -25,7 +17,7 @@
 
 /*
 =============== 
-Words
+Words aka jobs
 ===============
 */
 
@@ -55,11 +47,11 @@ Words
   outline-color: var(--clr-primary-10);
 }
 .job-btn:hover {
-  color: var(--clr-orange-8);
-  box-shadow: 0 2px var(--clr-grey-5);
+  color: var(--clr-primary-5);
+  box-shadow: 0 2px var(--clr-primary-5);
 }
 .active-btn {
-  color: var(--clr-orange-8);
+  color: var(--clr-primary-5);
   box-shadow: 0 2px var(--clr-primary-5);
 }
 
@@ -79,32 +71,12 @@ Words
 }
 .job-desc p {
   margin-bottom: 0;
-  color: var(--clr-grey-3);
+  color: var(--clr-grey-4);
 }
 .job-icon {
   color: var(--clr-primary-5);
 }
-@media screen and (min-width: 992px) {
-  .words-center {
-    width: 90vw;
-    display: grid;
-    grid-template-columns: 200px 1fr;
-    column-gap: 4rem;
-  }
-  .btn-container {
-    flex-direction: column;
-    justify-content: flex-start;
-  }
-  .job-btn {
-    margin-bottom: 1rem;
-  }
-  .active-btn {
-    box-shadow: -2px 0 var(--clr-primary-5);
-  }
-  .job-btn:hover {
-    box-shadow: -2px 0 var(--clr-primary-5);
-  }
-}
+
 .btn {
   text-transform: uppercase;
   background: var(--clr-primary-5);
@@ -130,7 +102,32 @@ Words
   background: var(--clr-primary-5);
 }
 
+/*
+========================
+@media query for tablet+
+========================
+*/
+
 @media screen and (min-width: 992px) {
+  .words-center {
+    width: 90vw;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    column-gap: 4rem;
+  }
+  .btn-container {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .job-btn {
+    margin-bottom: 1rem;
+  }
+  .active-btn {
+    box-shadow: -2px 0 var(--clr-primary-5);
+  }
+  .job-btn:hover {
+    box-shadow: -2px 0 var(--clr-primary-5);
+  }
   .about-section {
     width: 95vw;
   }

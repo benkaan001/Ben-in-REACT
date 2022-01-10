@@ -34,7 +34,6 @@ const getToKnowMe = [
     title: 'Exciting Future',
     dates: 'Future',
     responsibilities: [
-      `I can't express how incredibly excited I am `,
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores laborum minus harum accusantium sed fugiat eligendi sequi necessitatibus corrupti. Minus iste nobis soluta, nulla at hic cupiditate earum magnam sapiente?',
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores laborum minus harum accusantium sed fugiat eligendi sequi necessitatibus corrupti. Minus iste nobis soluta, nulla at hic cupiditate earum magnam sapiente?',
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores laborum minus harum accusantium sed fugiat eligendi sequi necessitatibus corrupti. Minus iste nobis soluta, nulla at hic cupiditate earum magnam sapiente?',
@@ -51,7 +50,7 @@ const GetToKnowMe = () => {
 
   return (
     <>
-      <section className='about-section'>
+      <section className='getToKnowMe-section'>
         <div className='title'></div>
         <div className='words-center'>
           <div className='btn-container'>

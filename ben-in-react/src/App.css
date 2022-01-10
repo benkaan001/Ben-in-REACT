@@ -1,3 +1,9 @@
+/* 
+==============================
+Global Variables/Color Palette
+==============================
+*/
+
 :root {
   --clr-primary-1: hsl(43, 86%, 17%);
   --clr-primary-2: hsl(43, 77%, 27%);
@@ -5,7 +11,6 @@
   --clr-primary-4: hsl(42, 63%, 48%);
 
   --clr-primary-5: hsl(42, 78%, 60%);
-  /* lighter shades of primary color */
   --clr-primary-6: hsl(43, 89%, 70%);
   --clr-primary-7: hsl(43, 90%, 76%);
   --clr-primary-8: hsl(45, 86%, 81%);
@@ -22,8 +27,7 @@
   --clr-grey-8: hsl(210, 31%, 80%);
   --clr-grey-9: hsl(212, 33%, 89%);
   --clr-grey-10: hsl(210, 36%, 96%);
-  --clr-white: #fff;
-  --clr-black: #222;
+
   --transition: all 0.3s linear;
   --spacing: 0.1rem;
   --radius: 0.25rem;
@@ -38,7 +42,7 @@
   --clr-orange-5: hsl(13, 88%, 68%);
   --clr-orange-6: hsl(13, 88%, 55%);
   --clr-orange-7: hsl(13, 74%, 49%);
-  /* --clr-orange-8: hsl(13, 74%, 33%); */
+  --clr-orange-8: hsl(13, 74%, 33%);
   --clr-orange-9: hsl(13, 73%, 25%);
   --clr-orange-10: hsl(13, 73%, 16%);
 }
@@ -48,6 +52,12 @@
   padding: 0;
   font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
+/* 
+===================
+Text Sizing
+===================
+*/
 
 h1 {
   font-size: 2.5rem !important;
@@ -74,7 +84,11 @@ h4 {
   color: var(--clr-grey-1);
 }
 
-/* body  */
+/* 
+===================
+Body 
+===================
+*/
 
 .body {
   display: flex;
@@ -85,7 +99,11 @@ h4 {
   background-color: var(--clr-primary-10);
 }
 
-/* header */
+/* 
+===================
+Header
+===================
+*/
 
 .app {
   background-color: var(--clr-primary-10);
@@ -106,8 +124,11 @@ h4 {
 .jumbotron .col {
   margin: auto;
 }
-
-/* typewriter*/
+/* 
+===================
+Typewriter
+===================
+*/
 
 .Typewriter {
   font-weight: 300;
@@ -123,7 +144,11 @@ h4 {
   color: var(--clr-grey-1);
 }
 
-/* button elements */
+/* 
+===================
+Buttons
+===================
+*/
 
 .btn {
   text-transform: uppercase;
@@ -139,7 +164,11 @@ h4 {
   background: var(--clr-primary-6) !important;
 }
 
-/* link elements  */
+/* 
+===================
+Links
+===================
+*/
 
 .links {
   color: var(--clr-grey-1);
@@ -149,12 +178,15 @@ h4 {
   color: var(--clr-primary-5);
   padding: 1px 1px;
 }
-
-/* project cards */
+/* 
+===================
+Projects
+===================
+*/
 
 .card:hover {
   transform: scale(1.01);
-  box-shadow: 10px 4px 10px 4 px var(--clr-orange-8);
+  box-shadow: 10px 4px 10px 4 px var(--clr-primary-5);
 }
 
 .project-title {
@@ -163,11 +195,15 @@ h4 {
 
 .project-title:hover {
   color: var(--clr-grey-1);
-  background-color: var(--clr-primary-10);
+  background-color: var(--clr-primary-7);
   margin-top: 0.01px;
 }
 
-/* errorPage styling */
+/* 
+===================
+Error Page
+===================
+*/
 .error {
   font-size: 20px;
   color: var(--clr-grey-1);
@@ -175,6 +211,12 @@ h4 {
 .error-body {
   background-color: var(--clr-primary-10);
 }
+
+/*
+========================
+@media query for tablet+
+========================
+*/
 
 @media screen and (min-width: 992px) {
   h1 {

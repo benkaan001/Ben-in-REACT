@@ -75,7 +75,9 @@ const Resume = () => {
               </div>
 
               <div class='skills-card-side skills-card-back'>
-                <button class='btn'>frontEnd skils</button>
+                <button class='btn' disabled={true}>
+                  frontEnd skils
+                </button>
               </div>
             </div>
           </Col>
@@ -135,7 +137,9 @@ const Resume = () => {
               </div>
 
               <div class='skills-card-side skills-card-back'>
-                <button class='btn'>backend skils</button>
+                <button class='btn' disabled={true}>
+                  backend skils
+                </button>
               </div>
             </div>
           </Col>

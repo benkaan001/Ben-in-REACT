@@ -1,3 +1,9 @@
+/* 
+===================
+Resume aka Skills Section
+===================
+*/
+
 .skills-card {
   height: 27rem;
   position: relative;
@@ -16,14 +22,7 @@
   height: 100%;
   border-radius: var(--radius);
   visibility: visible;
-
-  /* background-color: var(--clr-primary-5); */
 }
-/* .skills-card-img {
-  height: 100%;
-  max-width: 100%;
-
-} */
 
 .skills-card-front {
   background: var(--clr-primary-9);
@@ -47,3 +46,15 @@
 .github-calendar {
   background-color: var(--clr-primary-9) !important;
 }
+
+/*
+========================
+@media query for tablet+
+========================
+*/
+
+/* @media screen and (min-width: 992px) {
+
+
+
+} */
