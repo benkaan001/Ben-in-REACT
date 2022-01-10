@@ -17,30 +17,33 @@ const HomePage = (props) => {
   };
   return (
     <>
-      <Container fluid className='jumbotron'>
-        <Container fluid className='text-center typewriter'>
-          <Typewriter
-            onInit={(typewriter) => {
-              typewriter
+      <Container>
+        <header class='hero'>
+          <div class='section-center hero-center'>
+            <article class='hero-info'>
+              <h1>Hello there! 👋🏻</h1>
+              <div className='Typewriter'>
+                <Typewriter
+                  onInit={(typewriter) => {
+                    typewriter
+                      .pauseFor(1000)
+                      .typeString('<h4> taking you to home page in 3,2,1 </h4>')
 
-                .typeString('>  const meetBen = () => ...in 5,4,3,2,1 ')
-                // .pauseFor(300)
-                // .deleteChars(14)
-                // .typeString(
-                //   '> I just want to say quick thanks for stopping by '
-                // )
-                // .deleteAll(1)
-
-                // .typeString('> before I take you to the main page in 5,4,3,2,1')
-                .callFunction(() => typeHandler())
-                .start();
-            }}
-          />
-        </Container>
-
-        <Container className='text-center m'>
-          <Image src={require('../assets/project.JPG')} rounded width='50%' />
-        </Container>
+                      .callFunction(() => typeHandler())
+                      .start();
+                  }}
+                />
+              </div>
+            </article>
+            <article class='hero-img'>
+              <img
+                src={require('../assets/project.JPG')}
+                class='hero-photo'
+                alt='ben kaan'
+              />
+            </article>
+          </div>
+        </header>
       </Container>
     </>
   );

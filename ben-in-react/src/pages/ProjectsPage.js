@@ -5,18 +5,18 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 
-import projectImage from '../assets/project.JPG';
+// import projectImage from '../assets/project.JPG';
 import jsQuizImage from '../assets/jsQuiz.png';
 import tinyReactProjectsImage from '../assets/calorie-content.gif';
 import financialAdvisorApiImage from '../assets/financial-advisor-API.gif';
 import liteBudgetImage from '../assets/lite-budget.gif';
-import photoFetchImage from '../assets/Photo-Fetch.gif';
+import photoFetchImage from '../assets/photoFetch4.gif';
 import letsBlogThatImage from '../assets/letsBlogThat.png';
 
 const ProjectItems = [
   {
     id: 0,
-    title: 'Lets Blog That',
+    title: "Let's Blog That",
     description:
       'Full-stack web application featuring Model-View-Controller (MVC) architectural layout',
     img: letsBlogThatImage,
@@ -51,12 +51,12 @@ const ProjectItems = [
   },
   {
     id: 4,
-    title: 'Photo Fetch',
+    title: 'Photo Fetch-V2',
     description:
-      'Responsive front-end application featuring front-end fetch API calls with async/await syntax.',
+      'A backend applicaiton with express-session-based user authentication using Squalize ORM and MySQL to feature a responsive fetch API on the frontend.',
     img: photoFetchImage,
-    repo: 'https://github.com/benkaan001/photo-fetch',
-    page: 'https://benkaan001.github.io/photo-fetch/',
+    repo: 'https://github.com/benkaan001/photoFetch-V2',
+    page: 'https://afternoon-coast-77459.herokuapp.com/',
   },
   {
     id: 5,
@@ -78,7 +78,7 @@ const ProjectsPage = () => {
       </Container>
 
       <Container className='p-3'>
-        <Row>
+        <Row className='justify-conetent-md-center '>
           {ProjectItems.map((projectItem) => {
             return (
               <Col s={12} lg={6} key={projectItem.id}>

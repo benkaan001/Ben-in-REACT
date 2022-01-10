@@ -40,11 +40,11 @@ const Icons = () => {
             <a
               key={id}
               target='_blank'
-              className='m-4 links'
+              className='m-4'
               href={url}
               rel='nooper noreferrer'
             >
-              <span>{logo}</span>
+              <span className='links'>{logo}</span>
             </a>
           );
         })}

@@ -9,15 +9,15 @@ const Footer = () => {
   return (
     <Container>
       <Container fluid bg='light' variant='light' className='p-5 light'>
-        <Row>
+        <Row className='footer'>
           <Col sm={12} md={6} className='d-flex justify-content-center'>
-            <p className='footer'>© 2021 Made with love and care by Ben Kaan</p>
+            <p>© 2021 Built with love by Ben</p>
           </Col>
 
           <Col
             sm={12}
             md={6}
-            className='d-flex justify-content-md-end justify-content-center '
+            className='d-flex justify-content-md-end justify-content-center  '
           >
             <Icons />
           </Col>

@@ -9,13 +9,16 @@ import Row from 'react-bootstrap/Row';
 const Contact = () => {
   return (
     <>
-      <Container fluid className='p-5 mb-2 jumbotron'>
+      <Container fluid className='p-5 mb-2 shadow jumbotron'>
         <Container className='p-md-4 text-center'>
           <h1>Get in Touch</h1>
         </Container>
       </Container>
 
-      <Container fluid className='bg-light'>
+      <Container
+        fluid
+        className='py-5 d-flex flex-column flex-md-row justify-content-center align-items-center'
+      >
         <Container fluid className='p-5'>
           <Row>
             <Col>
