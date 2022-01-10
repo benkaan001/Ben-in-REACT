@@ -6,7 +6,7 @@ import { BsGithub } from 'react-icons/bs';
 const Projects = ({ project }) => {
   return (
     <Card className='m-lg-4  d-flex justify-content-center '>
-      <Card.Body className=' justify-content-between'>
+      <Card.Body className=' justify-content-between project-card-body'>
         <Card.Title className='d-flex justify-content-between '>
           <a
             href={project.page}

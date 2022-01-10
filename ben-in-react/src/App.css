@@ -48,21 +48,19 @@
   padding: 0;
   font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
 h1 {
-  font-size: 4rem !important;
+  font-size: 2.5rem !important;
 }
 
 h2 {
-  font-size: 3rem !important;
+  font-size: 1.8rem !important;
 }
 
 h3 {
-  font-size: 1.25rem !important;
+  font-size: 0.875rem !important;
 }
 
-h4 {
-  font-size: 0.875rem;
-}
 h1,
 h2 {
   letter-spacing: var(--spacing) !important;
@@ -74,25 +72,6 @@ h4 {
   padding-bottom: 16px;
   letter-spacing: var(--spacing) !important;
   color: var(--clr-grey-1);
-}
-
-/* homePage section */
-
-.hero-center {
-  overflow: hidden;
-}
-.Typewriter {
-  font-weight: 300;
-  font-size: 30px;
-  text-align: center;
-  display: flex;
-  /* justify-content: center; */
-  align-items: center;
-  min-height: 8vh;
-  overflow: hidden;
-}
-.Typewriter h4 {
-  color: var(--clr-primary-1);
 }
 
 /* body  */
@@ -126,6 +105,22 @@ h4 {
 
 .jumbotron .col {
   margin: auto;
+}
+
+/* typewriter*/
+
+.Typewriter {
+  font-weight: 300;
+  font-size: 30px;
+  text-align: center;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  min-height: 8vh;
+  overflow: hidden;
+}
+.Typewriter h4 {
+  color: var(--clr-grey-1);
 }
 
 /* button elements */
@@ -181,23 +176,24 @@ h4 {
   background-color: var(--clr-primary-10);
 }
 
-/* mobile-screen  */
-@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
-  .footer {
-    text-align: center;
-  }
-  .links {
-    text-align: center;
-  }
+@media screen and (min-width: 992px) {
   h1 {
-    font-size: 2.5rem !important;
+    font-size: 4rem !important;
   }
 
   h2 {
-    font-size: 1.8rem !important;
+    font-size: 3rem !important;
   }
 
   h3 {
-    font-size: 0.875rem !important;
+    font-size: 1.25rem !important;
+  }
+
+  h4 {
+    font-size: 0.875rem;
+  }
+  .project-card-body {
+    height: 50vh;
+    padding: 1rem 1rem;
   }
 }

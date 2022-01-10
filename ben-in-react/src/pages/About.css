@@ -47,6 +47,15 @@
   font-family: 'Roboto Mono', monospace;
   font-family: 'Work Sans', sans-serif; */
 }
+/* homePage section */
+
+.hero-center {
+  overflow: hidden;
+}
+
+.hero-info h1 {
+  font-size: 3.5rem !important;
+}
 
 .hero .underline {
   margin-bottom: 0.5rem;

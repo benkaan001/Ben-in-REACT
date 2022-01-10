@@ -44,7 +44,7 @@ const ProjectItems = [
     id: 3,
     title: 'Lite Budget PWA',
     description:
-      "Progressive Web Application(PWA) providing users with offline functionality to help keep track of users' financial information using MongoDB as its database.",
+      'Progressive Web Application(PWA) providing users with offline functionality utilizing MongoDB as its database.',
     img: liteBudgetImage,
     repo: 'https://github.com/benkaan001/lite-budget-PWA',
     page: 'https://dry-citadel-07916.herokuapp.com/',
@@ -53,7 +53,7 @@ const ProjectItems = [
     id: 4,
     title: 'Photo Fetch-V2',
     description:
-      'A backend applicaiton with express-session-based user authentication using Squalize ORM and MySQL to feature a responsive fetch API on the frontend.',
+      'A backend applicaiton featuring express-session-based user authentication, MySQL, and a responsive fetch API on the frontend.',
     img: photoFetchImage,
     repo: 'https://github.com/benkaan001/photoFetch-V2',
     page: 'https://afternoon-coast-77459.herokuapp.com/',
@@ -77,8 +77,8 @@ const ProjectsPage = () => {
         </Container>
       </Container>
 
-      <Container className='p-3'>
-        <Row className='justify-conetent-md-center '>
+      <Container className='p-5'>
+        <Row className='justify-conetent-md-center p-3'>
           {ProjectItems.map((projectItem) => {
             return (
               <Col s={12} lg={6} key={projectItem.id}>
