@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import Typewriter from 'typewriter-effect';
 
 import Container from 'react-bootstrap/Container';
-import Image from 'react-bootstrap/Image';
 
 const HomePage = (props) => {
   const [redirect, setRedirect] = useState(false);
@@ -18,9 +17,9 @@ const HomePage = (props) => {
   return (
     <>
       <Container>
-        <header class='hero'>
-          <div class='section-center hero-center'>
-            <article class='hero-info'>
+        <header className='hero'>
+          <div className='section-center hero-center'>
+            <article className='hero-info'>
               <h1>Hello there! 👋🏻</h1>
               <div className='Typewriter'>
                 <Typewriter
@@ -35,10 +34,10 @@ const HomePage = (props) => {
                 />
               </div>
             </article>
-            <article class='hero-img'>
+            <article className='hero-img'>
               <img
                 src={require('../assets/project.JPG')}
-                class='hero-photo'
+                className='hero-photo'
                 alt='ben kaan'
               />
             </article>

@@ -44,9 +44,11 @@ const getToKnowMe = [
 
 const GetToKnowMe = () => {
   const [jobs, setJobs] = useState(getToKnowMe);
+  console.log(setJobs);
   const [value, setValue] = useState(0);
 
   const { company, dates, responsibilities, title } = jobs[value];
+  console.log(company);
 
   return (
     <>

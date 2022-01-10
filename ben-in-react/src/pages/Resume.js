@@ -37,9 +37,9 @@ const Resume = () => {
       <Container>
         <Row>
           <Col>
-            <div class='skills-card'>
-              <div class='skills-card-side skills-card-front'>
-                <div class='skills-card-info'>
+            <div className='skills-card'>
+              <div className='skills-card-side skills-card-front'>
+                <div className='skills-card-info'>
                   <h4 className='mt-4 text-center'>Frontend Skills</h4>
                   <div className='skills-card-img'>
                     <img
@@ -74,17 +74,17 @@ const Resume = () => {
                 </div>
               </div>
 
-              <div class='skills-card-side skills-card-back'>
-                <button class='btn' disabled={true}>
+              <div className='skills-card-side skills-card-back'>
+                <button className='btn' disabled={true}>
                   frontEnd skils
                 </button>
               </div>
             </div>
           </Col>
           <Col>
-            <div class='skills-card'>
-              <div class='skills-card-side skills-card-front'>
-                <div class='skills-card-info'>
+            <div className='skills-card'>
+              <div className='skills-card-side skills-card-front'>
+                <div className='skills-card-info'>
                   <h4 className='mt-4 text-center'>Backend Skills</h4>
 
                   <img
@@ -136,8 +136,8 @@ const Resume = () => {
                 </div>
               </div>
 
-              <div class='skills-card-side skills-card-back'>
-                <button class='btn' disabled={true}>
+              <div className='skills-card-side skills-card-back'>
+                <button className='btn' disabled={true}>
                   backend skils
                 </button>
               </div>

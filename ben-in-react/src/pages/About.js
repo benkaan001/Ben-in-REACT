@@ -10,10 +10,10 @@ const About = () => {
   return (
     <>
       <Container>
-        <header class='hero'>
-          <div class='section-center hero-center'>
-            <article class='hero-info'>
-              <div class='underline'></div>
+        <header className='hero'>
+          <div className='section-center hero-center'>
+            <article className='hero-info'>
+              <div className='underline'></div>
               <h1>I'm Ben</h1>
               <h4>Fullstack Web Developer</h4>
               <Typewriter
@@ -31,10 +31,10 @@ const About = () => {
                 }}
               />
             </article>
-            <article class='hero-img'>
+            <article className='hero-img'>
               <img
                 src={require('../assets/IMG_6484.jpg')}
-                class='hero-photo'
+                className='hero-photo'
                 alt='ben kaan'
               />
             </article>
