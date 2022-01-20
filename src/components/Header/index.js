@@ -10,7 +10,7 @@ const Header = () => {
   return (
     <>
       <Navbar collapseOnSelect expand='lg'>
-        <LinkContainer to='/'>
+        <LinkContainer to='/ben-in-react'>
           <Navbar.Brand id='nav-brand'>Ben Kaan</Navbar.Brand>
         </LinkContainer>
 

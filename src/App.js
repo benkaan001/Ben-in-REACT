@@ -28,7 +28,7 @@ function App() {
           <Header />
           <div className='body'>
             <Switch>
-              <Route exact path='/' component={HomePage} />
+              <Route exact path='/ben-in-react' component={HomePage} />
               <Route path='/about' component={About} />
               <Route path='/projects' component={ProjectsPage} />
               <Route path='/resume' component={Resume} />
