@@ -11,7 +11,7 @@ const Footer = () => {
       <Container fluid bg='light' variant='light' className='p-5 light'>
         <Row className='footer'>
           <Col sm={12} md={6} className='d-flex justify-content-center'>
-            <p>© 2021 Built with love by Ben</p>
+            <p>© 2022 Built with love by Ben</p>
           </Col>
 
           <Col

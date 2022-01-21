@@ -67,7 +67,7 @@ const Resume = () => {
                       alt=''
                     />
                     <img
-                      src='https://img.icons8.com/wired/100/000000/api-settings.png'
+                      src='https://img.icons8.com/wired/80/000000/api-settings.png'
                       alt=''
                     />
                   </div>

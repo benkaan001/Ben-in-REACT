@@ -53,7 +53,8 @@ const ProjectItems = [
   {
     id: 4,
     title: 'Book-Thrill-with-GraphQL',
-    description: 'A collection of small React projects',
+    description:
+      'Full-stack MERN application featuring Apollo Server GraphQL library and GraphQL APIs',
     img: bookThrillImage,
     repo: 'https://github.com/benkaan001/book-thrill-GraphQL',
     page: 'https://quiet-headland-56636.herokuapp.com/',
@@ -80,7 +81,7 @@ const ProjectsPage = () => {
       </Container>
 
       <Container className='p-5'>
-        <Row className='justify-conetent-md-center p-3'>
+        <Row className='justify-content-md-center p-3'>
           {ProjectItems.map((projectItem) => {
             return (
               <Col s={12} lg={6} key={projectItem.id}>

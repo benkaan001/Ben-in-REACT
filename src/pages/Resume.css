@@ -5,7 +5,7 @@ Resume aka Skills Section
 */
 
 .skills-card {
-  height: 27rem;
+  height: 30rem;
   position: relative;
   -webkit-perspective: 1500px;
   perspective: 1500px;
@@ -31,7 +31,7 @@ Resume aka Skills Section
   background: var(--clr-primary-9);
   -webkit-transform: rotateY(180deg);
   transform: rotateY(180deg);
-  display: grid;
+  display: flex;
   place-items: center;
 }
 .skills-card:hover .skills-card-front {
@@ -52,9 +52,3 @@ Resume aka Skills Section
 @media query for tablet+
 ========================
 */
-
-/* @media screen and (min-width: 992px) {
-
-
-
-} */

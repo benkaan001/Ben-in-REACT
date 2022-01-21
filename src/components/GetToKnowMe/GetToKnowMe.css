@@ -23,7 +23,7 @@ Words aka jobs
 
 .words-center {
   width: 80vw;
-  margin: 0 auto;
+  margin: 3 auto;
   max-width: var(--max-width);
 }
 .btn-container {

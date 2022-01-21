@@ -30,7 +30,7 @@ Run `npm start` command to initiate the client server.
 
 ## Tests
 
-You can access the deployed application [here](https://benkaan001.github.io/ben-in-react).
+You can access the deployed application via this Heroku [link](https://secure-ravine-83556.herokuapp.com/about).
 
 ![demo gif](https://github.com/benkaan001/ben-in-react/blob/main/assets/ben-in-react.gif)
 
