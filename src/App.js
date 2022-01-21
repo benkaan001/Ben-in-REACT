@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 // components to import
 import Footer from './components/Footer';
-import Header from './components/Header';
+import NavBar from './components/NavBar';
 import Scroll from './components/Scroll';
 
 // pages to import
@@ -25,7 +25,7 @@ function App() {
       <Router>
         <Scroll />
         <div className='app'>
-          <Header />
+          <NavBar />
           <div className='body'>
             <Switch>
               <Route exact path='/ben-in-react' component={HomePage} />

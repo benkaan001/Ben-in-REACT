@@ -6,33 +6,43 @@ import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 
 // import projectImage from '../assets/project.JPG';
-import jsQuizImage from '../assets/jsQuiz.png';
-import tinyReactProjectsImage from '../assets/calorie-content.gif';
+import haloImage from '../assets/HALO-UI-desktop.gif';
+// import tinyReactProjectsImage from '../assets/calorie-content.gif';
 import financialAdvisorApiImage from '../assets/financial-advisor-API.gif';
 import liteBudgetImage from '../assets/lite-budget.gif';
 import photoFetchImage from '../assets/photoFetch4.gif';
 import letsBlogThatImage from '../assets/letsBlogThat.png';
+import bookThrillImage from '../assets/book-thrill copy.gif';
 
 const ProjectItems = [
   {
     id: 0,
+    title: 'Halo',
+    description: 'Test-driven MERN application featuring GraphQL Apollo JWT ',
+    img: haloImage,
+    repo: 'https://github.com/benkaan001/gym-joy',
+    page: 'https://sleepy-ocean-28624.herokuapp.com/',
+  },
+  {
+    id: 1,
+    title: 'Photo Fetch-V2',
+    description:
+      'A backend applicaiton featuring Express-session-based user authentication, MySQL, and fetch API on the frontend.',
+    img: photoFetchImage,
+    repo: 'https://github.com/benkaan001/photoFetch-V2',
+    page: 'https://afternoon-coast-77459.herokuapp.com/',
+  },
+  {
+    id: 2,
     title: "Let's Blog That",
     description:
-      'Full-stack web application featuring Model-View-Controller (MVC) architectural layout',
+      'Full-stack blog application featuring MySQL-Squelize and an MVC architectural layout',
     img: letsBlogThatImage,
     repo: 'https://github.com/benkaan001/lets-blog-that',
     page: 'https://lit-cove-65977.herokuapp.com/',
   },
   {
-    id: 1,
-    title: 'Calorie Content Menu in React',
-    description: 'A collection of small React projects',
-    img: tinyReactProjectsImage,
-    repo: 'https://github.com/benkaan001/react-tiny-projects',
-    page: 'https://github.com/benkaan001/react-tiny-projects/blob/main/1-birthday-reminder/assets/calorie-content.gif',
-  },
-  {
-    id: 2,
+    id: 3,
     title: 'Financial Advisor API',
     description:
       'An API that utilizes JWT, bcryptjs, custom error handling, and several data security npm libraries to help manage prospective clients for a financial advisor.',
@@ -41,30 +51,22 @@ const ProjectItems = [
     page: 'https://financial-advisor-api.herokuapp.com/api-docs/#/',
   },
   {
-    id: 3,
+    id: 4,
+    title: 'Book-Thrill-with-GraphQL',
+    description: 'A collection of small React projects',
+    img: bookThrillImage,
+    repo: 'https://github.com/benkaan001/book-thrill-GraphQL',
+    page: 'https://quiet-headland-56636.herokuapp.com/',
+  },
+
+  {
+    id: 5,
     title: 'Lite Budget PWA',
     description:
       'Progressive Web Application(PWA) providing users with offline functionality utilizing MongoDB as its database.',
     img: liteBudgetImage,
     repo: 'https://github.com/benkaan001/lite-budget-PWA',
     page: 'https://dry-citadel-07916.herokuapp.com/',
-  },
-  {
-    id: 4,
-    title: 'Photo Fetch-V2',
-    description:
-      'A backend applicaiton featuring express-session-based user authentication, MySQL, and a responsive fetch API on the frontend.',
-    img: photoFetchImage,
-    repo: 'https://github.com/benkaan001/photoFetch-V2',
-    page: 'https://afternoon-coast-77459.herokuapp.com/',
-  },
-  {
-    id: 5,
-    title: 'Quiz within JavaScript',
-    description: 'Simple JavaScript Quiz game',
-    img: jsQuizImage,
-    repo: 'https://github.com/benkaan001/react-tiny-projects',
-    page: 'https://github.com/benkaan001/react-tiny-projects/tree/main/5-calorie-content/MENU',
   },
 ];
 

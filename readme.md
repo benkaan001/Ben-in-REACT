@@ -32,7 +32,7 @@ Run `npm start` command to initiate the client server.
 
 You can access the deployed application [here]().
 
-![demo gif]()
+![demo gif](https://github.com/benkaan001/ben-in-react/blob/main/assets/ben-in-react.gif)
 
 ## Contributing
 
