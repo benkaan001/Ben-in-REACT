@@ -30,7 +30,7 @@ Run `npm start` command to initiate the client server.
 
 ## Tests
 
-You can access the deployed application [here]().
+You can access the deployed application [here](https://benkaan001.github.io/ben-in-react).
 
 ![demo gif](https://github.com/benkaan001/ben-in-react/blob/main/assets/ben-in-react.gif)
 
