@@ -11,7 +11,7 @@ import haloImage from '../assets/HALO-UI-desktop.gif';
 import financialAdvisorApiImage from '../assets/financial-advisor-API.gif';
 import liteBudgetImage from '../assets/lite-budget.gif';
 import photoFetchImage from '../assets/photoFetch4.gif';
-import letsBlogThatImage from '../assets/letsBlogThat.png';
+import letsBlogThatImage from '../assets/letsBlogThat.gif';
 import bookThrillImage from '../assets/book-thrill copy.gif';
 
 const ProjectItems = [
