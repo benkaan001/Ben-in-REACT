@@ -25,10 +25,10 @@ const Resume = () => {
 
       <Container className='py-5 d-flex flex-column flex-md-row justify-content-center align-items-center'>
         <Button
-          href='https://benkaan001.github.io/portfolioChallenge/assets/Ben%20Kaan%20Resume.html'
           target='_blank'
           rel='noopener noreferrer'
           className='btn'
+          href='https://docs.google.com/document/d/1Dw6ASE2igZDztme0b_df8SAH7XEbdxjnv9dshMWwXcE/edit?usp=sharing'
         >
           View My Resume
         </Button>

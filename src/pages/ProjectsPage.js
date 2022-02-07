@@ -18,7 +18,7 @@ const ProjectItems = [
   {
     id: 0,
     title: 'Halo',
-    description: 'Test-driven MERN application featuring GraphQL Apollo JWT ',
+    description: 'Test-driven MERN application featuring GraphQL Apollo JWT. ',
     img: haloImage,
     repo: 'https://github.com/benkaan001/gym-joy',
     page: 'https://sleepy-ocean-28624.herokuapp.com/',
@@ -27,7 +27,7 @@ const ProjectItems = [
     id: 1,
     title: 'Photo Fetch-V2',
     description:
-      'A backend applicaiton featuring Express-session-based user authentication, MySQL, and fetch API on the frontend.',
+      'A backend application featuring Express-session-based user authentication, MySQL, and fetch API on the frontend.',
     img: photoFetchImage,
     repo: 'https://github.com/benkaan001/photoFetch-V2',
     page: 'https://afternoon-coast-77459.herokuapp.com/',
@@ -36,7 +36,7 @@ const ProjectItems = [
     id: 2,
     title: "Let's Blog That",
     description:
-      'Full-stack blog application featuring MySQL-Squelize and an MVC architectural layout',
+      'Full-stack blog application featuring MySQL-Squelize and an MVC architectural layout.',
     img: letsBlogThatImage,
     repo: 'https://github.com/benkaan001/lets-blog-that',
     page: 'https://lit-cove-65977.herokuapp.com/',
@@ -54,7 +54,7 @@ const ProjectItems = [
     id: 4,
     title: 'Book-Thrill-with-GraphQL',
     description:
-      'Full-stack MERN application featuring Apollo Server GraphQL library and GraphQL APIs',
+      'Full-stack MERN application featuring Apollo Server GraphQL library and GraphQL APIs.',
     img: bookThrillImage,
     repo: 'https://github.com/benkaan001/book-thrill-GraphQL',
     page: 'https://quiet-headland-56636.herokuapp.com/',
