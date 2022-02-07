@@ -23,8 +23,20 @@ const getToKnowMe = [
     title: 'The Power of Consistency',
     dates: 'Past',
     responsibilities: [
-      `I believe in hard work and consistency. Consistency is the key ingredient in one's success. Being consistent also requires a lot of perseverance. As a fitness/welness coach, I remind my clients that what matters most is what they do when life does not seem to give them any opportunity to workout or prioritize their health goals.`,
-      `My consistency has also something to do with the ancient musical instrument, Ney, that I self-taught how to play over a decade ago. Ney is from around 3,000 B.C. with a fascinating sound - it took me a few years to get a proper sound out of it despite my deliberate efforts. You can learn/hear more about it via the soundcloud link on the upper and lower right corner of the page.`,
+      `I believe in hard work and consistency. Consistency and willingness to do the hard work to figure out the smart work are the key ingredient in one's success. Being consistent also requires a lot of perseverance. As a fitness/welness coach, I remind my clients that what matters most is what they do when life does not seem to give them any opportunity to workout or prioritize their health goals.`,
+      `My consistency has also something to do with the ancient musical instrument, Ney, that I self-taught how to play over a decade ago. Ney is from around 3,000 B.C. with a fascinating sound - it took me a few years to get a proper sound out of it despite my deliberate efforts.`,
+      <p>
+        You can check out the landing page that I built for Ney{' '}
+        <a
+          href='https://benkaan001.github.io/Ney/'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          {' '}
+          here
+        </a>
+        .
+      </p>,
     ],
     company: 'PART II',
   },
